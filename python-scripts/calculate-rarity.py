@@ -247,7 +247,7 @@ trait_value_counts = defaultdict(int)
 total_items = len(items) - len(hardcoded_rank_ids)
 
 # Traits to filter out from the rarity calculations
-traits_to_exclude = {"Wisdom/Magic", "Power/Strength", "Speed/Agility"}
+traits_to_exclude = {"Wisdom/Magic", "Power/Strength", "Speed/Agility", "Replaced with"}
 
 for item in items:
     item_id = item.get('ethscription_id', item.get('id', ''))
