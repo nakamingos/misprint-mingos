@@ -33,8 +33,8 @@ Headband - Cobra | rarity score = 1248.00 | frequency = 3 / 3744
 Chain - Medallion | rarity score = 1248.00 | frequency = 3 / 3744
 Hat/Helmet - FB Helmet Olive | rarity score = 1248.00 | frequency = 3 / 3744
 Background - Win95 | rarity score = 1248.00 | frequency = 3 / 3744
-Background - Garry | rarity score = 1248.00 | frequency = 3 / 3744
 Origin - Art Drop | rarity score = 1248.00 | frequency = 3 / 3744
+Background - Garry | rarity score = 1248.00 | frequency = 3 / 3744
 Shirt/Jacket - Tubesock - Lakers | rarity score = 936.00 | frequency = 4 / 3744
 Hat/Helmet - Racer Red | rarity score = 936.00 | frequency = 4 / 3744
 Glasses - Classic Shades | rarity score = 936.00 | frequency = 4 / 3744
