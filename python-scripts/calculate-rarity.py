@@ -400,7 +400,7 @@ for rank, (nft_name, total_rarity_score, rarest_trait, nft_item) in enumerate(nf
 # Sort NFTs by rank to ensure "00001" is at the top
 ranked_nfts.sort(key=lambda x: x[0])
 
-# Update metadata with rarity values
+# Update metadata with rank values
 for item in items:
     eid = item.get('ethscription_id', item.get('id'))
     
@@ -410,20 +410,20 @@ for item in items:
     if rank_val is None:
         continue
     
-    # Remove any existing rank trait
+    # Remove any existing rank field from prior runs or legacy output
     item[attr_key] = [attr for attr in item.get(attr_key, []) 
-                             if attr.get('trait_type', '').lower() != 'rank']
+                             if attr.get('trait_type', '').lower() not in ('rank', 'rarity')]
     
-    # Update or add rarity trait
+    # Update or add the current Rank trait
     updated = False
     for attr in item.get(attr_key, []):
-        if attr.get('trait_type', '').lower() == 'rarity':
+        if attr.get('trait_type', '').lower() == 'rank':
             attr['value'] = rank_val
             updated = True
             break
     
     if not updated:
-        item.setdefault(attr_key, []).append({'trait_type': 'Rarity', 'value': rank_val})
+        item.setdefault(attr_key, []).append({'trait_type': 'Rank', 'value': rank_val})
 
 # Write updated metadata
 with open(output_meta, 'w', encoding='utf-8') as f:
