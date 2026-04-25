@@ -156295,17 +156295,13 @@
             "id": "0x90d50676a89e5572527957ca551d54bf34881ec7644f77fe6e9194e66df52b32",
             "index": 3728,
             "sha": "568a4f9cf80292471baff765afcaef35a9d32755ceac91d37e0117d2ed76f57d",
-            "name": "Misprint Mingo #2602",
+            "name": "Misprint Mingo #3728",
             "description": "A misprinted Mingo",
             "ethscription_number": 5730302,
             "attributes": [
                 {
                     "trait_type": "Type",
                     "value": "Mingo Mollusk"
-                },
-                {
-                    "trait_type": "Replaced with",
-                    "value": "Nakamingo #2602"
                 },
                 {
                     "trait_type": "Shirt/Jacket",
@@ -156352,10 +156348,6 @@
                 {
                     "trait_type": "Type",
                     "value": "Mingo Mollusk"
-                },
-                {
-                    "trait_type": "Replaced with",
-                    "value": "Nakamingo #5000"
                 },
                 {
                     "trait_type": "Shirt/Jacket",
@@ -156406,10 +156398,6 @@
                 {
                     "trait_type": "Type",
                     "value": "Mingo Gruff"
-                },
-                {
-                    "trait_type": "Replaced with",
-                    "value": "Nakamingo #12345"
                 },
                 {
                     "trait_type": "Shirt/Jacket",
